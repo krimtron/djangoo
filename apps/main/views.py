@@ -7,3 +7,7 @@ def index(request):
 
 def lol(request):
     return render(request, 'main/lol.html')
+
+
+def about_the_site(request):
+    return render(request, 'main/about_the_site.html')
